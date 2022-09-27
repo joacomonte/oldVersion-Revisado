@@ -8,7 +8,7 @@ function RevisadoTitle() {
     <div className='RevisadoContainer'>
           <img className='logo' src={revisadoLogo} alt='hola' ></img>
           <div>
-            <div className='test' style={{color:'white', fontSize:'22px'}} >Compra con confianza.</div>
+            <div className='title' style={{color:'white', fontSize:'22px'}} >Compra con confianza.</div>
             <div style={{color:'white', fontSize:'22px'}} >Vende sin esfuerzo</div>
           </div>
     </div>

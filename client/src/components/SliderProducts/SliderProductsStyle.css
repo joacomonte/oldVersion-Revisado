@@ -1,0 +1,45 @@
+@import 'swiper/css';
+
+
+.SwiperContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+
+.swip{
+    width: 900px;
+    height: 600px;
+
+}
+
+.sliderContainer{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background: url('../../images/sliderDemo.png');
+    background-size: 88%;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.sliderContainer2{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background: url('../../images/sliderDemo.png');
+    background-size: 88%;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+
+

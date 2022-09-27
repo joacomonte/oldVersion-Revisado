@@ -1,3 +1,30 @@
+
+/* .circlePicture{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url('../../images/detalleSmall.png');
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 50%;
+    overflow:hidden;
+    background-repeat:no-repeat;  
+} */
+
+
+.confiarTitle{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 600;
+    width: 90%;
+    height: 150px;
+    color: #38ED9A;
+}
+
+@media (min-width: 615px){
 .confiarContainer{
     color: white;
     display: flex;
@@ -21,29 +48,110 @@
     position: absolute;
     top: 0px;
     right: 50px;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
     height: 200px;
     width: 200px;
-    background-color: rgb(22, 169, 98);
+    background: url('../../images/detalleSmall.png');
+    background-size: cover;
     border-radius: 50%;
-    display: inline-block;
+
 }
 .bola2{
     position: absolute;
     top: 200px;
     right: 120px;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
     height: 250px;
     width: 250px;
-    background-color: rgb(158, 3, 3);
+    background: url('../../images/detalleSmall.png');
+    background-size: cover;
     border-radius: 50%;
-    display: inline-block;
 }
 .bola3{
     position: absolute;
     top: 50px;
     left: 70px;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
     height: 270px;
     width: 270px;
-    background-color: rgb(23, 54, 177);
+    background: url('../../images/detalleSmall.png');
+    background-size: cover;
     border-radius: 50%;
-    display: inline-block;
+}
+}
+
+@media (max-width: 615px){
+    .confiarContainer{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: 100vw;
+        background-color: black;
+    }
+    .bolasContainer{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        height: 100%;
+        width: 700px;
+    }
+    
+    .bola1{
+        display: flex;
+        height: 200px;
+        width: 200px;
+
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+
+        background: url('../../images/detalleSmall.png');
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .bola2{
+        display: flex;
+        height: 250px;
+        width: 250px;
+
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+
+        background: url('../../images/detalleSmall.png');
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .bola3{
+        display: flex;
+        height: 270px;
+        width: 270px;
+
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+
+        background: url('../../images/detalleSmall.png');
+        background-size: cover;
+        border-radius: 50%;
+    }
+
 }
