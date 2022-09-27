@@ -1,0 +1,22 @@
+.RevisadoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100vw;
+
+    background-color: black;
+}
+
+.logo{
+
+    height: 150px;
+}
+
+.test > h1{
+        padding: 0px;
+        margin: 0px;
+        border:0;
+        display:inline; 
+}

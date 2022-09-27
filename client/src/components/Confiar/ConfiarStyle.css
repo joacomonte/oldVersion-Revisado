@@ -1,0 +1,49 @@
+.confiarContainer{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 100vw;
+    background-color: black;
+}
+.bolasContainer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 700px;
+}
+
+.bola1{
+    position: absolute;
+    top: 0px;
+    right: 50px;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(22, 169, 98);
+    border-radius: 50%;
+    display: inline-block;
+}
+.bola2{
+    position: absolute;
+    top: 200px;
+    right: 120px;
+    height: 250px;
+    width: 250px;
+    background-color: rgb(158, 3, 3);
+    border-radius: 50%;
+    display: inline-block;
+}
+.bola3{
+    position: absolute;
+    top: 50px;
+    left: 70px;
+    height: 270px;
+    width: 270px;
+    background-color: rgb(23, 54, 177);
+    border-radius: 50%;
+    display: inline-block;
+}
