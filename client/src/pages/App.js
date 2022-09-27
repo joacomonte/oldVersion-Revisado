@@ -18,9 +18,7 @@ function App() {
         <Shop/>
         <Confiar/>
         <Sliders/>
-
-
-
+        
     </div>
   );
 }
