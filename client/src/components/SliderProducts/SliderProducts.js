@@ -3,7 +3,7 @@ import './SliderProductsStyle.css';
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation} from 'swiper'
+import { Navigation, Autoplay} from 'swiper'
 
 import 'swiper/css';
 import 'swiper/css/navigation'
@@ -19,10 +19,11 @@ function SliderProducts (){
       <h1 style={{color:'white', textAlign:'center', padding:'50px 0'}}> Productos destacados</h1>
 
     <Swiper className='swip'
-      modules={[Navigation]}
+      modules={[Navigation, Autoplay]}
       navigation
       speed={800}
       slidesPerView={1}
+      autoplay
     >
       <SwiperSlide className='sliderContainer'>
       </SwiperSlide>
@@ -47,9 +48,7 @@ function SliderProducts (){
                 <div className='fotoDetalle'></div>
                 <div className='descripcionDetalle'>Ejecuta el sistema operativo móvil iOS.</div>
               </div>
-              <div className='detailsButton'>
-                <button>Ver detalles</button>
-              </div>
+
             </div>
             <div className='foto'>
               <div></div>
@@ -60,7 +59,9 @@ function SliderProducts (){
 
       ...
     </Swiper>
-
+    <div className='detailsButtonContainer'>
+      <button className='detailsButton'>Destacados</button>
+    </div>
     </div>
   );
 };
