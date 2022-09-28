@@ -10,10 +10,11 @@ import Sliders from './components/SliderProducts/SliderProducts';
 function App() {
   return (
     <div className="App">
-
+{/* 
         <Routes>
           <Route path='/' element={<Navbar/>} />
-        </Routes>
+        </Routes> */}
+        
         <RevisadoTitle/>
         <Shop/>
         <Confiar/>

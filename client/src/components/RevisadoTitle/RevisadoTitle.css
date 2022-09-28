@@ -1,10 +1,11 @@
 .RevisadoContainer{
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: auto;
+    height: 350px;
     width: 100vw;
     
 
@@ -24,4 +25,12 @@
 }
 .title{
     text-align: center;
+}
+
+.menuDiv{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    color: white;
+
 }
