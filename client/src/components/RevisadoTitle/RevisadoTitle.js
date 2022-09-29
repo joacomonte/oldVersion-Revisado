@@ -2,13 +2,17 @@ import React from 'react'
 import './RevisadoTitle.css';
 import revisadoLogo from '../../images/RevisadoCompleto@4x.png';
 import Navbar from '../Navbar/Navbar';
+import {Routes, Route} from 'react-router-dom'
 
 
 function RevisadoTitle() {
   return (
     <div className='RevisadoContainer'>
       <div className='menuDiv' >
-        <Navbar/>
+      <Routes>
+          <Route path='/' element={<Navbar/>} />
+        </Routes>
+
 
       </div>
           <img className='logo' src={revisadoLogo} alt='hola' ></img>

@@ -3,22 +3,28 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    color:white;
 
 
   }
   
   .menu-bars {
-    margin-top: 5%;
-    margin-left: 5%;
-    font-size: 2rem;
+    font-size: 2.5rem;
     background: none;
   }
+  .closeButton{
+    margin-top: 20px;
+    margin-left: 20px;
+
+    font-size: 2.5rem;
+    background: none;
+  }
+
   
   .nav-menu {
-    margin-top: 4%;
+    margin-top: 30px;
     padding-left: 10px;
     background-color: #38ED9A;
-    width: 15vw;
     min-width: 230px;
     height: auto;
     padding-bottom: 50px;
@@ -43,13 +49,13 @@
     align-items: center;
     padding: 8px 0px 8px 16px;
     list-style: none;
-    height: 60px;
+    height:60px;
   }
   
   .nav-text a {
     text-decoration: none;
     color: #f5f5f5;
-    font-size: 18px;
+    font-size: 20px;
     width: 95%;
     height: 100%;
     display: flex;
@@ -67,6 +73,7 @@
   }
   
   .navbar-toggle {
+
     background-color:  #38ED9A;
     width: 100%;
     height: 80px;

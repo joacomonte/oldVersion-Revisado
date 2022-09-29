@@ -1,0 +1,55 @@
+.Howtopost-Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.Howtopost-title{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    width: 80vw;
+    font-size: 2.5rem;
+    font-weight: 500;
+    max-width: 800px;
+    padding: 100px;
+}
+
+.Howtopost-stepsContainer{
+    display: flex;
+    width: 800px;
+    gap: 20px;
+}
+.stepContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+    text-align: center;
+
+    width: 180px;
+}
+.stepContainer > h2{
+    font-size: 22px;
+    height: 40px;
+}
+.stepContainer > h3{
+    font-size: 15px;
+    height: 40px;
+}
+.stepContainer > h3 > button{
+    font-size: 15px;
+    color: #38ED9A;
+    background-color: transparent;
+    cursor: pointer;
+}
+.stepContainer > .detailsButton{
+    font-size: 16px;
+    height: 40px;
+    width: 120px;
+    border-radius: 15px;
+}
+

@@ -130,10 +130,12 @@
     border-radius: 20px;
     transition: 300ms;
     cursor: pointer;
+    color:black;
 }
 .detailsButton:hover{
     background-color: black;
     color: #38ED9A;
 }
+
 
 

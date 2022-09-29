@@ -20,13 +20,14 @@ function Navbar() {
       <IconContext.Provider value={{ color: 'black' }}>
         <div className='navbar'>
           <Link to='#' className='menu-bars'>
-            <FaIcons.FaBars onClick={showSidebar} size={40} color={'white'}/>
+            <FaIcons.FaBars onClick={showSidebar} color={'white'}/>
           </Link>
         </div>
+
         <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
           <ul className='nav-menu-items' onClick={showSidebar}>
             <li className='navbar-toggle'>
-              <Link to='#' className='menu-bars'>
+              <Link to='#' className='closeButton'>
                 <AiIcons.AiOutlineClose />
               </Link>
             </li>
