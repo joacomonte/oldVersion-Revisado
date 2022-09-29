@@ -23,9 +23,9 @@ function HowToPost() {
 
             <div className='stepContainer'>
                 <div><ImPhone size={iconsSize}/></div>
-                <h2>contactenos</h2>
+                <h2>Contactanos</h2>
                 <h3>Por Whatsapp o Instagram</h3>
-                <button className='detailsButton'>WhatsApp</button>
+                <button className='WsButton'>WhatsApp</button>
             </div>
             <div className='stepContainer'>
                 <div><ImTruck size={iconsSize}/></div>

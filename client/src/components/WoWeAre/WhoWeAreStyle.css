@@ -14,7 +14,8 @@
 
 .ourStory{
     width: 80%;
-    padding: 200px 0;
+    padding-top: 200px;
+    padding-bottom: 70px;
     text-align: center;
 }
 
@@ -22,20 +23,24 @@
     display: flex;
     flex-wrap: wrap;
     max-width: 100%;
-    justify-content: space-around;
+    justify-content: space-evenly;
+
 }
 
 .singleContact-container{
     position: relative;
 
-    height: 300px;
+    height: 190px;
     width: 300px;
+    margin: 70px 50px;
+
 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     text-align: center;
+
 }
 
 .greenContainer{
@@ -55,7 +60,7 @@
 
 .pedro-img{
     position: absolute;
-    top: -25%;
+    top: -40%;
 
     background-image: url('../../images/pedro.png');
     background-position: center;
