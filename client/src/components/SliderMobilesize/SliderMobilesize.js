@@ -25,8 +25,8 @@ function SliderMobilesize() {
           </div>
 
         </div>
-        <div className='small-foto'>
-          <div></div>
+        <div className='small-fotoContainer'>
+          <div className='small-foto'></div>
         </div>
       </div>
     </div>

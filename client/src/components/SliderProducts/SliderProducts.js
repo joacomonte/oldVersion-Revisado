@@ -19,9 +19,9 @@ function SliderProducts (){
   
   return (
     <div className='SwiperContainer'>
-      <h1 style={{color:'white', textAlign:'center', padding:'50px 0'}}> Productos destacados</h1>
+      <h1 style={{color:'white', textAlign:'center', padding:'50px 0',fontSize:'2.5rem', color:'lightgreen'}}> Productos destacados</h1>
 
-    <Swiper className='swip'
+    <Swiper className='swipMobile'
       modules={[Navigation, Autoplay]}
       navigation
       speed={800}
@@ -31,10 +31,12 @@ function SliderProducts (){
 
 
       <SwiperSlide>
-        <SliderMobilesize/>
+      {/* <SliderFullsize/> */}
+      <SliderMobilesize/>
       </SwiperSlide>
       
       <SwiperSlide>
+        {/* <SliderFullsize/> */}
         <SliderMobilesize/>
       </SwiperSlide>
 
