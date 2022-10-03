@@ -1,0 +1,19 @@
+.banner-pageContainer{
+    max-height: 300px;
+    height: 40vw;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.banner-contentContainer{
+}
+.banner-img{
+    opacity: 0.7;
+    width: 100%;
+    max-width: 1000px;
+    height: 100%;
+    overflow: hidden;
+}

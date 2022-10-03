@@ -7,6 +7,7 @@ import Sliders from './components/SliderProducts/SliderProducts';
 import HowToPost from './components/HowToPost/HowToPost';
 import WhoWeAre from './components/WoWeAre/WhoWeAre';
 import NuestraApp from './components/NuestraApp/NuestraApp';
+import Banner1 from './components/Banner1/Banner1';
 
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
 
         <RevisadoTitle/>
         <Shop/>
-        <Confiar/>
+        <Banner1/>
+        {/* <Confiar/> */}
         <Sliders/>
         <HowToPost/>
         <WhoWeAre/>

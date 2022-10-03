@@ -5,26 +5,18 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 350px;
+    height: 60px;
     width: 100vw;
-    
-
-    background-color: black;
+    background-color: #38ED9A;
 }
 
-.logo{
-    width: 95vw;
-    max-width: 400px;
-}
+
 
 .test > h1{
         padding: 0px;
         margin: 0px;
         border:0;
         display:inline; 
-}
-.title{
-    text-align: center;
 }
 
 .menuDiv{
