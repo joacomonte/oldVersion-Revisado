@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './RevisadoTitle.css';
+import './MenuBarStyle.css';
 import revisadoLogo from '../../images/RevisadoCompleto@4x.png';
 import Navbar from '../Navbar/Navbar';
 import {Routes, Route} from 'react-router-dom'

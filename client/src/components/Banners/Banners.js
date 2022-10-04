@@ -1,5 +1,5 @@
 import React from 'react'
-import './Banner1Style.css'
+import './BannersStyle.css'
 import bgJoystick from '../../images/bg-joystick.jpg'
 import bgCamera from '../../images/bg-camera.jpg'
 import bgPhone from '../../images/bg-phone.jpg'

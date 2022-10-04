@@ -1,4 +1,6 @@
 .RevisadoPageContainer{
+    position:sticky;
+    top:0;
 
     display: flex;
     justify-content: center;
@@ -7,12 +9,19 @@
     text-align: center;
     
     height: 60px;
-    width: 100vw;
-    max-width: 1000px;
-    background-color: #000000;
+    width: 100%;
+
+    background-color: rgba(0,0,0,0.8);
+    z-index: 3;
+
 }
 
 .RevisadoContainer{
+
+
+    width: 100vw;
+    max-width: 1000px;
+
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 
@@ -25,20 +34,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+
     height: 100%;
     font-size: min(3.9vw,1.5rem);
-    font-weight: 500;
+    font-weight: 300;
     transform: 0.3ms;
 }
 .navButton:hover{
-    background-color: rgba(56,237,154,0.1);
+    background-color: rgba(56,237,154,0.2);
     cursor: pointer;
+    /* border-radius: 15px 15px 0 0px */
 }
 
 .navButton.active{
     background-color: #38ED9A;
     color: black;
+    /* border-radius: 15px 15px 0 0px; */
+    font-weight: 600;
 }
 
 

@@ -1,13 +1,13 @@
 
 import './App.css';
-import RevisadoTitle from './components/RevisadoTitle/RevisadoTitle';
+import MenuBar from './components//MenuBar/MenuBar';
 import Shop from './components/Shop/Shop';
 import Confiar from './components/Confiar/Confiar';
 import Sliders from './components/SliderProducts/SliderProducts';
 import HowToPost from './components/HowToPost/HowToPost';
 import WhoWeAre from './components/WoWeAre/WhoWeAre';
 import NuestraApp from './components/NuestraApp/NuestraApp';
-import Banner1 from './components/Banner1/Banner1';
+import Banners from './components/Banners/Banners';
 
 
 function App() {
@@ -15,9 +15,9 @@ function App() {
     <div className="App">
 
 
-        <RevisadoTitle/>
+        <MenuBar/>
         <Shop/>
-        <Banner1/>
+        <Banners/>
         {/* <Confiar/> */}
         <Sliders/>
         <HowToPost/>
