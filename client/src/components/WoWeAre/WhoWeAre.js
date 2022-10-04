@@ -23,7 +23,7 @@ function WhoWeAre() {
                     <div className='pedro-img'></div>
                     <div className='greenContainer'>
                         <h2>Pedro 2</h2>
-                        <h3>El de mi izquierda es puto</h3>
+                        <h3>Mejor CEO que el anterior</h3>
                     </div>
                     <h4>Position<br></br>Mail</h4>
                 </div>
