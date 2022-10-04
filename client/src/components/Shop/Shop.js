@@ -12,10 +12,11 @@ function Shop() {
       <div className='hero-imgContainer'> 
         <img className='logo' src={revisadoLogo} alt='hola'></img>
 
-        <div className='sub1'  >Compra con confianza.</div>
-        <div className='sub2'  >Vende sin esfuerzo</div>
+        <div className='sub1'> Compra con <mark style={{color:'#38ED9A', background:'none'}}>confianza.</mark></div>
+        <div className='sub2'> Vende <mark style={{color:'#38ED9A', background:'none'}}>sin esfuerzo</mark></div>
+        <button className='buttonShop'> Más detalles </button>
 
-        <img className='hero-img' src={bgMain} width={1000}></img>
+        <div className='hero-img'></div>
       </div>
     </div>
 

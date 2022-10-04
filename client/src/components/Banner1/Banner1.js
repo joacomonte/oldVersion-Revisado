@@ -9,7 +9,9 @@ function Banner1() {
     <>
         <div className='banner-pageContainer'>
             <div className='banner-imgContainer'> 
+                <div className='textOfBannerLeft'>Detallamos las condiciones</div>
                 <img className='banner-img' src={bgJoystick}></img>
+
             </div>
         </div>
         <div className='banner-pageContainer'>
@@ -19,6 +21,7 @@ function Banner1() {
         </div>
         <div className='banner-pageContainer'>
             <div className='banner-imgContainer'> 
+                <div className='textOfBannerLeft'>Devolución gratuita hasta 10 días</div>
                 <img className='banner-img' src={bgPhone}></img>
             </div>
         </div>

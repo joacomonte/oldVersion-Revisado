@@ -1,21 +1,23 @@
 
 .hero-pageContainer{
     position: relative;
-
-
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
-
-    max-height: 670px;
+    max-height: 660px;
     height: 80vh;
     width: 100%;
-
-
     overflow: hidden;
-    
 }
+
+
+.hero-imgContainer{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+}
+
 
 .logo{
     position: absolute;
@@ -23,8 +25,9 @@
     right: 0;
     top: 0;
     bottom: 0;
-    margin: 0 auto;
-    width: 70vw;
+    margin: 30px auto;
+
+    width: 90vw;
     max-width: 500px;
     
 
@@ -34,38 +37,58 @@
 .sub1{
     position: absolute;
     left: 20px;
-    top: 45%;
-    font-size: min(5vw,33px);
+    top: 50%;
+    font-size: min(6vw,33px);
+    font-weight: 600;
 
 }
 .sub2{
     position: absolute;
     left: 20px;
-    top: 55%;
+    top: 60%;
     font-size: 3vw;
-    font-size: min(5vw,33px);
+    font-size: min(6vw,33px);
+    font-weight: 600;
 }
 
-.hero-imgContainer{
-    position: relative;
-    width: 100%;
-    max-width: 1000px;
-
-
-
-}
-.banner-img{
-    opacity: 0.7;
-    width: 100%;
-    max-width: 1000px;
-    height: 100%;
-    overflow: hidden;
+.buttonShop{
+    position: absolute;
+    left: 0;
+    top: 67%;
     
+    color:black;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px;
+    background-color: #38ED9A;
+    height: 50px;
+    width: 160px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s
+}
+.buttonShop:hover{
+    background-color: rgba(56,237,154,0.3);
+    background-opa: 0.5;
+    color: white;
 }
 
 
 
+.hero-img{
+    background: url('../../images/bg-main.jpg');
+    width: 100%;
+    max-width: 1000px;
+    height: 1000px;
+    max-height: 660px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 40%;
 
+}
+
+/* ------------------ */
 
 .shopContainer{
 
@@ -95,17 +118,3 @@
     color: white;
 }
 
-.buttonShop{
-    
-    color:#38ED9A;
-    font-size: 22px;
-    font-weight: 500;
-    margin: 20px;
-    background-color: rgb(0, 0, 0);
-    height: 50px;
-    width: 150px;
-    border-radius: 20px;
-    border: none;
-
-    cursor: pointer;
-}

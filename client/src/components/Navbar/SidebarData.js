@@ -7,13 +7,13 @@ export const SidebarData = [
     {
         title:'Home',
         path:'/',
-        icon: <AiFillHome/>,
+        icon: <AiFillHome color='black'/>,
         cName:'nav-text'
     },
     {
         title:'Shop',
         path:'/shop',
-        icon: <AiFillHome/>,
+        icon: <AiFillHome color='black'/>,
         cName:'nav-text'
     },
 ]
