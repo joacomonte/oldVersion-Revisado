@@ -1,25 +1,26 @@
 import React, { useState } from 'react'
 import './MenuBarStyle.css';
-import revisadoLogo from '../../images/RevisadoCompleto@4x.png';
-import Navbar from '../Navbar/Navbar';
-import {Routes, Route} from 'react-router-dom'
 
 
-function RevisadoTitle() {
+import { Link } from "react-router-dom";
 
-  const [index, setIndex] = useState(0);
+
+function RevisadoTitle(props) {
+
+  const [index, setIndex] = useState(props.pageIndex);
 
 
   return (
     <div className='RevisadoPageContainer'>
       <div className='RevisadoContainer'>
-        {/* <div className='menuDiv' >
-        <Routes>
-            <Route path='/' element={<Navbar/>} />
-          </Routes>
-        </div> */}
-        <div className={`navButton ${index===0 ?'active':null}`} onClick={ () => {setIndex(0)}} > Inicio</div>
+
+        <Link to="/" style={{ textDecoration: 'none', height:'100%', color:'white' }}>
+          <div className={`navButton ${index===0 ?'active':null}`} onClick={ () => {setIndex(0)}} > Inicio</div>
+        </Link>
+
+        <Link to="/shop-page" style={{ textDecoration: 'none', height:'100%', color:'white' }}>
         <div className={`navButton ${index===1 ?'active':null}`} onClick={ () => {setIndex(1)}}> Shop</div>
+        </Link>
         <div className={`navButton ${index===2 ?'active':null}`} onClick={ () => {setIndex(2)}}> Nosotros</div>
         <div className={`navButton ${index===3 ?'active':null}`} onClick={ () => {setIndex(3)}}> Login</div>
       </div>
@@ -30,3 +31,12 @@ function RevisadoTitle() {
 }
 
 export default RevisadoTitle
+
+
+
+        
+        {/* <div className='menuDiv' >
+        <Routes>
+            <Route path='/' element={<Navbar/>} />
+          </Routes>
+        </div> */}

@@ -1,29 +1,23 @@
 
 import './App.css';
-import MenuBar from './components//MenuBar/MenuBar';
-import Shop from './components/Shop/Shop';
-import Confiar from './components/Confiar/Confiar';
-import Sliders from './components/SliderProducts/SliderProducts';
-import HowToPost from './components/HowToPost/HowToPost';
-import WhoWeAre from './components/WoWeAre/WhoWeAre';
-import NuestraApp from './components/NuestraApp/NuestraApp';
-import Banners from './components/Banners/Banners';
+
+import HomePage from './pages/HomePage';
+
+import  { Routes, Route } from "react-router-dom";
+
+import ShopPage from './pages/ShopPage';
 
 
 function App() {
   return (
-    <div className="App">
-
-
-        <MenuBar/>
-        <Shop/>
-        <Banners/>
-        {/* <Confiar/> */}
-        <Sliders/>
-        <HowToPost/>
-        <WhoWeAre/>
-        <NuestraApp/>
-    </div>
+    <>
+      <div className="App">
+        <Routes>
+          <Route path='/shop-page' element={<ShopPage/>} />
+          <Route path='/' element={<HomePage/>} />
+        </Routes>
+      </div>
+    </>
   );
 }
 
