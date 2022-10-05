@@ -10,11 +10,25 @@ import 'swiper/css/navigation'
 
 import SliderFullsize from '../SliderFullsize/SliderFullsize';
 import SliderMobilesize from '../SliderMobilesize/SliderMobilesize';
-
+import { useState, useEffect } from 'react';
 
 
 
 function SliderProducts (){
+
+  const [winWidth, setWinWidth] = useState(window.innerWidth)
+
+  const detectSize = () => {
+    setWinWidth(window.innerWidth)
+  }
+
+  useEffect(() => {
+    window.addEventListener('resize', detectSize)
+
+    return () => {
+      window.removeEventListener('resize', detectSize)
+    }
+  }, [winWidth])
 
   
   return (
@@ -29,18 +43,29 @@ function SliderProducts (){
         autoplay
       >
 
-        <SwiperSlide>
-          <SliderFullsize/>
-        </SwiperSlide>
+        {(winWidth>1000) && 
+          <SwiperSlide>
+            <SliderFullsize/>
+          </SwiperSlide>
+        }
 
-        <SwiperSlide>
-          <SliderFullsize/>
-        </SwiperSlide>
+        {(winWidth>1000) && 
+          <SwiperSlide>
+            <SliderFullsize/>
+          </SwiperSlide> 
+        }
 
-
-        <SwiperSlide>
-         <SliderMobilesize/>
-        </SwiperSlide>
+        {(winWidth<1000) && 
+          <SwiperSlide>
+            <SliderMobilesize/>
+          </SwiperSlide>
+        }
+        
+        {(winWidth<1000) && 
+          <SwiperSlide>
+            <SliderMobilesize/>
+          </SwiperSlide>
+        }
         
 
         
