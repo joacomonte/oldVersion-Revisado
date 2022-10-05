@@ -12,6 +12,8 @@ import SliderFullsize from '../SliderFullsize/SliderFullsize';
 import SliderMobilesize from '../SliderMobilesize/SliderMobilesize';
 import { useState, useEffect } from 'react';
 
+import data from './SliderProductsData'
+
 
 
 function SliderProducts (){
@@ -43,27 +45,27 @@ function SliderProducts (){
         autoplay
       >
 
-        {(winWidth>1000) && 
+        {(winWidth>800) && 
           <SwiperSlide>
-            <SliderFullsize/>
+            <SliderFullsize info={data.destacado1}/>
           </SwiperSlide>
         }
 
-        {(winWidth>1000) && 
+        {(winWidth>800) && 
           <SwiperSlide>
-            <SliderFullsize/>
+            <SliderFullsize info={data.destacado2}/>
           </SwiperSlide> 
         }
 
-        {(winWidth<1000) && 
+        {(winWidth<800) && 
           <SwiperSlide>
-            <SliderMobilesize/>
+            <SliderMobilesize info={data.destacado2}/>
           </SwiperSlide>
         }
-        
-        {(winWidth<1000) && 
+
+        {(winWidth<800) && 
           <SwiperSlide>
-            <SliderMobilesize/>
+            <SliderMobilesize info={data.destacado2}/>
           </SwiperSlide>
         }
         
