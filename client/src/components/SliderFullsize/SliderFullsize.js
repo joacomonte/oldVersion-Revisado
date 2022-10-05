@@ -23,13 +23,10 @@ function SliderFullsize(props) {
             <div className='fotoDetalle'></div>
             <div className='descripcionDetalle'>{props.info.detail3}</div>
           </div>
-
         </div>
-        <div className='foto'>
-          <div></div>
-        </div>
+      <div className='foto'></div>
       </div>
-    </div>
+      </div>
   )
 }
 
