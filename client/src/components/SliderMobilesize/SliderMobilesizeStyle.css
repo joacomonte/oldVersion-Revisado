@@ -7,8 +7,8 @@
     flex-direction: column;
     align-items: center;
 
-    width: 100vw;
-    height: 90vh;
+    width: 100%;
+    height: 100%;
 
 
 
@@ -18,14 +18,18 @@
     display: flex;
     flex-direction: column;
 
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
     width: 100%;
-    height: 95vh;
+    height: 100%;
 
 }
 
 .small-caracs{
     width: 100%;
-    height: 40vh;
+    height: 100%;
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -35,8 +39,8 @@
 }
 
 .small-brandModel{
-    width: 70vw;
-    height: auto;
+    width: 100%;
+    height: 100%;
 
 }
 .small-brandModel> h1{
@@ -52,12 +56,11 @@
 
 
 .small-fotoContainer{
-    height: 40vh;
     width: 100%;
+    height: 100%;
     display: grid;
     justify-content: center;
     align-content: center;
-
 
 }
 
@@ -80,9 +83,7 @@
     text-align: center;
     color: white;
     width: 100%;
-
-
-
+    height: 100%;
 }
 
 /* .small-fotoDetalle{
@@ -101,6 +102,8 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    width: 100%;
+    height: 100%;
 
     font-size: 1.1rem;
     width: 90%;

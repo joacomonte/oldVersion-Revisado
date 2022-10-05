@@ -4,18 +4,39 @@
 
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-height: 900px;
+    height: 100%;
+
+
+}
+
+
+.interior{
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    width: 80%;
+    height: 100%;
+}
+
+.caracs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     height: 100%;
-    width: 800px;
-    padding: 0 10px;
 }
-.interior{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color:  black;
-    width: 90%;
-    height: 100%;
-}
+
+
+
 
 .brandModel{
     width: 340px;
@@ -33,21 +54,16 @@
     cursor: pointer;
 }
 
-.caracs{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
 
 .foto{
     height: 100%;
-    width: 100%;
+    width: 400px;
     background: url('../../images/iphone12.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 10px; 
+
 
 }
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import MenuBar from '../components/MenuBar/MenuBar';
 import Shop from '../components/Shop/Shop';
-import Sliders from '../components/SliderProducts/SliderProducts';
+import SlidersProducts from '../components/SliderProducts/SliderProducts';
 import HowToPost from '../components/HowToPost/HowToPost';
 import WhoWeAre from '../components/WoWeAre/WhoWeAre';
 import NuestraApp from '../components/NuestraApp/NuestraApp';
@@ -12,12 +12,14 @@ function HomePage() {
     <>
 
         <MenuBar pageIndex={0}/>
-        <Shop/>
-        <Banners/>
-        <Sliders/>
-        <HowToPost/>
-        <WhoWeAre/>
-        <NuestraApp/>
+        <div className='revisado-pageContainer1'>
+          <Shop/>
+          <Banners/>
+          <SlidersProducts/>
+          <HowToPost/>
+          <WhoWeAre/>
+          <NuestraApp/>
+        </div>
 
 </>
   )

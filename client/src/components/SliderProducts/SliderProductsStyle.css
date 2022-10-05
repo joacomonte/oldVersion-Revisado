@@ -2,29 +2,23 @@
 
 
 .SwiperContainer{
-    display: grid;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    align-content: center;
-    height: auto;
+    height: 80vh;
     width: 100%;
-    padding: 50px 0;
 }
 
-.swipPC{
-    max-width: 800px;
-    width: 95vw;
-    height: 90vh;
-    max-height: 500px;
-}
+
 .swipMobile{
-    max-width: 800px;
-    width: 100vw;
-    height: 90vh;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    max-width: 1000px;
+    width: 90vw;
 
 }
-
-
 
 
 
@@ -32,6 +26,8 @@
     margin-top: 50px;
     display: flex;
     justify-content: center;
+    align-items: center;
+
 }
 
 .detailsButton{
@@ -51,5 +47,20 @@
     color: #38ED9A;
 }
 
+.SlidersTitle{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    width: 100%;
+
+
+    color:white;
+
+    padding:50px 0;
+    font-Size:2.5rem;
+    color: #38ED9A;;
+}
 
 

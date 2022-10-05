@@ -19,32 +19,36 @@ function SliderProducts (){
   
   return (
     <div className='SwiperContainer'>
-      <h1 style={{color:'white', textAlign:'center', padding:'50px 0',fontSize:'2.5rem', color:'lightgreen'}}> Productos destacados</h1>
+      <h1 className='SlidersTitle'> Productos Destacados</h1>
 
-    <Swiper className='swipMobile'
-      modules={[Navigation, Autoplay]}
-      navigation
-      speed={800}
-      slidesPerView={1}
-      autoplay
-    >
+      <Swiper className='swipMobile'
+        modules={[Navigation, Autoplay]}
+        navigation
+        speed={800}
+        slidesPerView={1}
+        autoplay
+      >
+
+        <SwiperSlide>
+          <SliderFullsize/>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <SliderFullsize/>
+        </SwiperSlide>
 
 
-      <SwiperSlide>
-      {/* <SliderFullsize/> */}
-      <SliderMobilesize/>
-      </SwiperSlide>
-      
-      <SwiperSlide>
-        {/* <SliderFullsize/> */}
-        <SliderMobilesize/>
-      </SwiperSlide>
+        <SwiperSlide>
+         <SliderMobilesize/>
+        </SwiperSlide>
+        
 
-      ...
-    </Swiper>
-    <div className='detailsButtonContainer'>
-      <button className='detailsButton'>Destacados</button>
-    </div>
+        
+
+      </Swiper>
+      {/* <div className='detailsButtonContainer'>
+        <button className='detailsButton'>Destacados</button>
+      </div> */}
     </div>
   );
 };

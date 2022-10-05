@@ -17,9 +17,6 @@ function ShopPage() {
       <ProductCard/>
       <ProductCard/>
       </div>
-
-
-
     </div>
     </>
 
